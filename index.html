@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+        <script src="js/vendor.bundle.js"></script>
+        <script src="js/app.bundle.js"></script>
+        
+    </head>
+
+
+
+    <body ng-app="dashboard">
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Angular Routing Example</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#!/about"><i class="fa fa-shield"></i> About</a></li>
+                    <li><a href="#!/quote"><i class="fa fa-comment"></i> Quote of the Day</a></li>
+                    <li><a href="#!/contact"><i class="fa fa-comment"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div ng-view></div>
+        <br />
+
+        <!-- <div ng-controller="ResourceController as ctrl">
+            <div>
+                Random quote : {{ctrl.randomQuote.attributes.quote}}
+            </div>
+        </div> -->
+    </body>
+</html>

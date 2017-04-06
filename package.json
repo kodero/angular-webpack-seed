@@ -1,0 +1,43 @@
+{
+  "name": "angular-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "bundle": "webpack",
+    "bundle-prod": "webpack -p",
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenhowardpdx/angular-webpack.git"
+  },
+  "keywords": [],
+  "author": "Ken Howard <ken@simplicatedweb.com> (http://kenhowardpdx.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenhowardpdx/angular-webpack/issues"
+  },
+  "homepage": "https://github.com/kenhowardpdx/angular-webpack#readme",
+  "devDependencies": {
+    "angular": "^1.5.0",
+    "angular-resource": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "http-server": "^0.9.0",
+    "jquery": "^3.2.1",
+    "karma": "^1.5.0",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "2.0.1",
+    "jasmine-core": "^2.3.4",
+    "ng-annotate-webpack-plugin": "^0.2.1-pre",
+    "oclazyload": "^1.1.0",
+    "requirejs": "^2.3.3",
+    "uglify-js": "^2.8.15",
+    "webpack": "^2.3.1"
+  }
+}
